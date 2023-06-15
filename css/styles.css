@@ -578,6 +578,14 @@ img {
   border: 1px solid var(--main-color-text);
   border-radius: 4px;
   background-color: transparent;
+  padding-left: 16px;
+}
+
+.footer-input::placeholder {
+  color: var(--main-color-text);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 
 .footer-btn {
