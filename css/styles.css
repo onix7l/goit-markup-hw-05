@@ -935,7 +935,6 @@ img {
   border: 1px solid var(--modal-text-color);
   border-radius: 2px;
   margin-right: 8px;
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -950,7 +949,7 @@ img {
 }
 
 .input-check:checked + .check-text span {
-  background-color: var(--header-logo-blue);
+  background-color: var(--link-active);
   border: none;
   fill: var(--background-color-additional);
 }
