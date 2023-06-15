@@ -869,7 +869,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--border-color-additional);
   margin-bottom: 4px;
-  display: inline-block;
+  display: block;
 }
 
 .input-wrap {
