@@ -843,6 +843,14 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-field-text {
+  margin-bottom: 16px;
+}
+
+.modal-field-check {
+  margin-bottom: 24px;
+}
+
 .modal-input {
   width: 100%;
   height: 40px;
@@ -890,12 +898,14 @@ img {
   border: 1px solid var(--modal-text-color);
   border-radius: 4px;
   background-color: transparent;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 8px;
+  padding: 8px 16px;
   outline: transparent;
   transition: border-color var(--transition);
   resize: none;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--modal-text-color);
 }
 
 .modal-text::placeholder {
@@ -917,6 +927,12 @@ img {
   display: flex;
   align-items: center;
   /* gap: 8px; */
+}
+
+.user-privacy-icon {
+  transition: background-color var(--transition), border var(--transition),
+    fill var(--transition);
+  display: inline-block;
 }
 
 .check-text span {
