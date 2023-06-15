@@ -930,12 +930,6 @@ img {
 }
 
 .user-privacy-icon {
-  transition: background-color var(--transition), border var(--transition),
-    fill var(--transition);
-  display: inline-block;
-}
-
-.check-text span {
   width: 16px;
   height: 16px;
   border: 1px solid var(--modal-text-color);
@@ -945,9 +939,12 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color var(--transition), border var(--transition),
+    fill var(--transition);
+  display: inline-flex;
 }
 
-.check-text a {
+.user-privacy-link {
   color: var(--header-logo-blue);
   text-decoration: underline;
 }
