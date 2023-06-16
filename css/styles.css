@@ -890,6 +890,7 @@ img {
   position: absolute;
   left: 16px;
   top: 50%;
+  fill: var(--additional-color-text);
   transform: translateY(-50%);
   transition: fill var(--transition);
 }
@@ -954,6 +955,10 @@ img {
   background-color: var(--link-active);
   border: none;
   fill: var(--background-color-additional);
+}
+
+.input-check:focus + .check-text span {
+  border-color: var(--link-active);
 }
 
 .modal-send {
